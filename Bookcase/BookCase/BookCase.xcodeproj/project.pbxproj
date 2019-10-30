@@ -15,6 +15,9 @@
 		8D889BC8236957E600E683F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D889BC6236957E600E683F5 /* LaunchScreen.storyboard */; };
 		8D889BD3236957E600E683F5 /* BookCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D889BD2236957E600E683F5 /* BookCaseTests.swift */; };
 		8D889BDE236957E600E683F5 /* BookCaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D889BDD236957E600E683F5 /* BookCaseUITests.swift */; };
+		8D889BEC23695E7800E683F5 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D889BEB23695E7800E683F5 /* book.png */; };
+		8D889BEE2369622400E683F5 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D889BED2369622400E683F5 /* star.png */; };
+		8D889BF0236A07AB00E683F5 /* book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D889BEF236A07AB00E683F5 /* book.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8D889BD9236957E600E683F5 /* BookCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookCaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D889BDD236957E600E683F5 /* BookCaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCaseUITests.swift; sourceTree = "<group>"; };
 		8D889BDF236957E600E683F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D889BEB23695E7800E683F5 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		8D889BED2369622400E683F5 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		8D889BEF236A07AB00E683F5 /* book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 		8D889BBA236957E400E683F5 /* BookCase */ = {
 			isa = PBXGroup;
 			children = (
+				8D889BEF236A07AB00E683F5 /* book.jpg */,
+				8D889BEB23695E7800E683F5 /* book.png */,
 				8D889BBB236957E400E683F5 /* AppDelegate.swift */,
+				8D889BED2369622400E683F5 /* star.png */,
 				8D889BBD236957E400E683F5 /* SceneDelegate.swift */,
 				8D889BBF236957E400E683F5 /* ViewController.swift */,
 				8D889BC1236957E400E683F5 /* Main.storyboard */,
@@ -233,7 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D889BC8236957E600E683F5 /* LaunchScreen.storyboard in Resources */,
+				8D889BEE2369622400E683F5 /* star.png in Resources */,
 				8D889BC5236957E600E683F5 /* Assets.xcassets in Resources */,
+				8D889BEC23695E7800E683F5 /* book.png in Resources */,
+				8D889BF0236A07AB00E683F5 /* book.jpg in Resources */,
 				8D889BC3236957E400E683F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
